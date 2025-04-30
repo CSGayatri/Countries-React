@@ -1,0 +1,15 @@
+/* src/components/CountryCard.css */
+.country-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .country-card.selected {
+    border-color: #007bff;
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+  }
+  
